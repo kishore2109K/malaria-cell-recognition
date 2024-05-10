@@ -130,6 +130,7 @@ predictions = pred_probabilities > 0.5
 print("K Kishore 212223040101")
 print(classification_report(test_image_gen.classes,predictions))
 confusion_matrix(test_image_gen.classes,predictions)
+```
 
 ## OUTPUT
 
